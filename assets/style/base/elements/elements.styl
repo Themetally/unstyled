@@ -1,0 +1,67 @@
+blockquote, q
+	quotes: "“ ”"
+
+hr
+	background-color: $light
+	border: 0
+	height: 1px
+	margin-bottom: 1vr
+
+
+figure
+	margin: 0
+
+p
+	margin-top: 0
+	margin-bottom: 1gr
+
+dfn, cite, em, i
+	font-style: italic
+
+blockquote
+	position: relative
+	margin-top: 1gr
+	margin-bottom: 2gr
+	padding: 1gr 1.5gr 1gr 3gr
+	font-style: italic
+	p
+		margin: 0
+
+	&:before
+		position: absolute
+		font-family: serif
+		opacity: .5
+		top: -1rem
+		left: -.1em
+		content: "“"
+		font-size: 8sx
+		line-height: 100%
+
+
+address
+	margin-bottom: 1gr
+
+pre
+	background: $bright
+	font-family: "Courier 10 Pitch", Courier, monospace
+	margin-bottom: 1gr
+	padding: 2gr
+	max-width: 100%
+	overflow: auto
+
+
+code, kbd, tt, var
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace
+	font-size: 0sx
+
+abbr, acronym
+	border-bottom: 1px dotted $light
+	cursor: help
+
+mark, ins
+	background: #fff9c0
+	text-decoration: none
+
+big
+	font-size: 2sx
+	line-height: auto

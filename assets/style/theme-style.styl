@@ -1,0 +1,32 @@
+// Configure Gridlover:
+// You can remove them if you're not going to use gridlover units: `sx`, `gr`
+html
+	--base-font-size: 16px
+	--base-line-height: 1.75;
+	--base-scale-factor: 1.33
+	--base-units: rem
+
+	font-size: @--base-font-size
+	line-height: @--base-line-height
+
+// Stylus Configuration & Mixins
+@require "_config/*"
+@require "_mixins/*"
+
+/*--------------------------------------------------------------
+ * Base
+ *--------------------------------------------------------------*/
+@require "base/reset/*"
+@require "base/*"
+@require "base/**/*"
+
+/*--------------------------------------------------------------
+ * Modules
+ *--------------------------------------------------------------*/
+@require "modules/*"
+
+/*--------------------------------------------------------------
+ * Site
+ *--------------------------------------------------------------*/
+@require "site/*"
+@require "site/**/*"

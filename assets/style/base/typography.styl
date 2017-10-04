@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+ * Typography
+ *--------------------------------------------------------------*/
+html
+	font-family: $font
+
+body
+	color: $text_color
+
+h1, h2, h3, h4, h5, h6
+	clear: both
+	font-weight: 700
+
+	+ ul, + ol
+		margin-top: 1gr
+
+h1
+	font-size: 5sx
+	line-height: auto
+	margin-bottom: 1gr
+
+h2
+	font-size: 4sx
+	line-height: auto
+	margin-bottom: 1gr
+
+h3
+	font-size: 3sx
+	line-height: auto
+
+h4
+	font-size: 2sx
+	line-height: auto
+
+h5
+	font-size: 1sx
+	line-height: auto
+
+h6
+	font-size: 0sx
+
+
+// Give the textarea and basic elements the body style
+button,
+input,
+select,
+textarea
+	@extends body
+
+
+
+

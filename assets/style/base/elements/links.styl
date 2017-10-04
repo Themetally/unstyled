@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+ *## Links
+ *-------------------------------------------------------------- */
+
+// Generic Links
+a
+	color: $link_color
+	text-decoration: none
+	outline: 0
+
+	&:visited
+		color: $dark
+
+	&:hover, &:focus, &:active
+		color: lighten($link_color, 15)
+
+	&:focus
+		outline: thin dotted $black
+
+	&:hover, &:active
+		outline: 0

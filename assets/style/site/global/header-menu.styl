@@ -1,0 +1,84 @@
+.site-navigation
+	display: block
+	clear: both
+
+	max-width: 400px
+	margin-left: auto
+	margin-right: auto
+	text-align: center
+
+	position: relative
+
+	.is-open > ul
+		display: block
+
+	ul
+		text-align: left
+		list-style: none
+		margin: 0
+		padding-top: 1gr
+		padding-left: 0
+
+		display: none
+
+		li
+			position: relative
+			margin: 0 1px 0px 0
+
+			&:hover > ul,
+			&:focus > ul
+				left: auto
+
+	.children
+		layer(menu)
+		top: 1gr
+		margin-top: 1px
+		margin-right: -1px
+		padding-top: 0
+
+		li
+			&:hover > ul,
+			&.focus > ul
+				left: 100%
+			a
+				padding-left: .5gr
+				&:before
+					content: "- "
+			li
+				a
+					padding-left: 1gr
+
+	a
+		display: inline-block
+		width: 100%
+		padding: .25gr 0
+		text-decoration: none
+
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a
+	.menu-item-has-children,
+	.page_item_has_children
+		min-width: 218px
+
+	.menu-item-has-children > a,
+	.page_item_has_children > a
+		padding-right: 1.5gr
+
+		display: flex
+
+		&::after
+			content: "+"
+			margin-left: auto
+
+	.is-open > a:after
+		content: '–'
+		
+
+.menu-toggle
+	margin-left: auto
+	margin-right: auto
+	text-transform: uppercase
+	border: none

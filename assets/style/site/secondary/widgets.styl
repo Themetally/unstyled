@@ -1,0 +1,113 @@
+.site-sidebar
+	@extends .site-content
+
+.widget
+	margin-bottom: 1gr
+	padding-bottom: 1gr
+
+	ul, ol
+		margin-bottom: 0
+		list-style-type: none
+		li
+			display: block
+
+			ul, ol
+				margin-left: .5gr
+	a
+		font-weight: 600
+
+
+	/* Make sure select elements fit in widgets. */
+	select
+		width: 100%
+		border: 1px solid $light
+		outline: 0
+
+.widget-title
+	font-size: 2sx
+	line-height: auto
+
+
+.widget_categories .children
+	padding-top: 0
+
+/* Search widget.*/
+.widget_search .search-submit
+	display: none
+
+/* Pages and Menu widgets */
+.widget_pages .children,
+.widget_nav_menu .sub-menu
+	margin-bottom: 1gr
+
+.widget_pages,
+.widget_nav_menu
+	a
+		text-decoration: none
+	li
+		padding: 0
+
+/* Meta widget */
+.widget_meta li
+	padding: 0
+
+/* Recent comments */
+.widget_recent_comments
+	a:hover,
+	a:focus
+		padding-left: 0
+
+/* RSS widget */
+.widget_rss
+	li
+		margin-bottom: 2gr
+
+	.rss-date, .widget_rss cite
+		font-style: italic
+
+	.rssSummary
+		margin-bottom: 1gr
+
+	.rsswidget
+		font-size: 1sx
+		line-height: auto
+		display: block
+
+/* Search widget */
+.widget_search input[type="search"]
+	width: 100%
+	border: 1px solid $light
+
+/* Calendar widget */
+.widget_calendar
+	caption
+		padding: 1gr 0
+		font-size: 1gr
+		text-align: left
+	thead
+		background: transparent
+		th
+			border-bottom-width: 2px
+	td
+		padding: .2em
+		font-size: .8em
+		text-align: center
+		background: $white
+		border: 1px solid $light
+	th
+		border: none
+		text-align: center
+	.pad
+		background: $bright
+	a
+		font-weight: 900
+		text-decoration: none
+
+/* Text widget */
+.textwidget
+	line-height: auto
+
+
+/* Calendar widget */
+.calendar_wrap
+	max-width: 22rem

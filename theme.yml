@@ -1,0 +1,8 @@
+# Theme info:
+name: Unstyled
+slug: unstyled
+email: admin@localhost
+author: justnorris
+
+# Tell BrowserSync where you're site is at:
+development_url: http://theme.wp

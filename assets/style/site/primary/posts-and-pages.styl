@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+ *## Posts and pages
+ *-------------------------------------------------------------- */
+
+.entry-content
+	clearfix()
+
+	a
+		text-decoration: none
+
+		&:focus,
+		&:hover
+			opacity: .8
+
+.category-links
+	margin-bottom: 1gr
+
+.entry-title
+	margin-bottom: 1gr
+	font-size: 3sx
+	line-height: auto
+
+.entry-header
+	margin-bottom: 1gr
+
+.entry-meta, .entry-footer
+	margin-bottom: 1gr
+
+.featured-image
+	margin-bottom: 1gr
+	img
+		display: block
+
+
+
+/*--------------------------------------------------------------
+ * Byline, Comments, Edit link
+ *--------------------------------------------------------------*/
+.byline::after
+	content: "|"
+	margin: 0 .25gr
+
+.comments-link, .edit-link
+	&::before
+		content: "|"
+		margin: 0 .25gr
+
+.byline, .updated:not(.published)
+	display: none
+
+.single, .group-blog
+	.byline
+		display: inline
