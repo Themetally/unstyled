@@ -3,7 +3,7 @@ Unstyled is a WordPress **starter theme** with a built-in **workflow**.
 
 Think of `Unstyled` as [_s](https://github.com/Automattic/_s) with batteries included.
 
-![image](https://user-images.githubusercontent.com/988095/31171605-fab59e98-a908-11e7-87f6-161556c9949d.jpg)
+![image](https://user-images.githubusercontent.com/988095/31171735-74400622-a909-11e7-836c-fd81defe381d.jpg)
 
 ## Batteries Included
 This is an opinionated starting point powered by **Gulp.js**, that means that you will have touch the terminal a little bit.
