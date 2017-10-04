@@ -51,21 +51,24 @@ This is a starting point to make free themes on WordPress.org, because of that b
 
 The theme comes packed with a few defaults
 * Default Styles
-* * a stripped version of normalize.css
-* * box-sizing: border-box;
-* * Basic style for elements like lists, tables, paragraphs, buttons, etc.
-* * Basic container width and alignment
-* * Toggleable menu starting point
+
+  * a stripped version of normalize.css
+  * box-sizing: border-box;
+  * Basic style for elements like lists, tables, paragraphs, buttons, etc.
+  * Basic container width and alignment
+  * Toggleable menu starting point
 
 * Default WordPress Styles
-* * Alignment
-* * Captions
-* * WP Gallery
-* * Widgets
-* * Posts and Archives
+
+	* Alignment
+	* Captions
+	* WP Gallery
+	* Widgets
+	* Posts and Archives
 
 * Clean directory structure
-* *  All theme functions and helpers are kept in `/inc/` directory and its subdirectories
-* *  All source files for styles, scripts, images, build tools are all kept in `/assets/` diretory and its subdirectories
-* *  Compressed and built files are kept in the `/build/` directory
-* *  Theme template parts are kept in `/partials` directory. 
+
+	*  All theme functions and helpers are kept in `/inc/` directory and its subdirectories
+	*  All source files for styles, scripts, images, build tools are all kept in `/assets/` diretory and its subdirectories
+	*  Compressed and built files are kept in the `/build/` directory
+	*  Theme template parts are kept in `/partials` directory. 
