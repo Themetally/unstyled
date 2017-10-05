@@ -15,11 +15,11 @@
 
 	<header id="header" class="site-header" role="banner">
 		
-		<?php get_template_part( 'partials/header/branding' ) ?>
+		<?php get_template_part( 'partials/header/menu' ) ?>
 
-		<nav id="site-navigation" class="site-navigation" role="navigation">
+		<nav id="site-menu" class="site-menu" role="navigation">
 			<?php get_template_part( 'partials/header/navigation' ) ?>
-		</nav><!-- #site-navigation -->
+		</nav><!-- #site-menu -->
 
 	</header><!-- #header -->
 

@@ -610,7 +610,7 @@ body {
   padding: 1.75rem;
   text-align: center;
 }
-.site-navigation {
+.site-menu {
   display: block;
   clear: both;
   max-width: 400px;
@@ -619,10 +619,10 @@ body {
   text-align: center;
   position: relative;
 }
-.site-navigation .is-open > ul {
+.site-menu .is-open > ul {
   display: block;
 }
-.site-navigation ul {
+.site-menu ul {
   text-align: left;
   list-style: none;
   margin: 0;
@@ -630,61 +630,61 @@ body {
   padding-left: 0;
   display: none;
 }
-.site-navigation ul li {
+.site-menu ul li {
   position: relative;
   margin: 0 1px 0px 0;
 }
-.site-navigation ul li:hover > ul,
-.site-navigation ul li:focus > ul {
+.site-menu ul li:hover > ul,
+.site-menu ul li:focus > ul {
   left: auto;
 }
-.site-navigation .children {
+.site-menu .children {
   z-index: 5000;
   top: 1.75rem;
   margin-top: 1px;
   margin-right: -1px;
   padding-top: 0;
 }
-.site-navigation .children li:hover > ul,
-.site-navigation .children li.focus > ul {
+.site-menu .children li:hover > ul,
+.site-menu .children li.focus > ul {
   left: 100%;
 }
-.site-navigation .children li a {
+.site-menu .children li a {
   padding-left: 0.875rem;
 }
-.site-navigation .children li a:before {
+.site-menu .children li a:before {
   content: "- ";
 }
-.site-navigation .children li li a {
+.site-menu .children li li a {
   padding-left: 1.75rem;
 }
-.site-navigation a {
+.site-menu a {
   display: inline-block;
   width: 100%;
   padding: 0.4375rem 0;
   text-decoration: none;
 }
-.site-navigation .current_page_item > a,
-.site-navigation .current-menu-item > a,
-.site-navigation .current_page_ancestor > a,
-.site-navigation .current-menu-ancestor > a,
-.site-navigation .menu-item-has-children,
-.site-navigation .page_item_has_children {
+.site-menu .current_page_item > a,
+.site-menu .current-menu-item > a,
+.site-menu .current_page_ancestor > a,
+.site-menu .current-menu-ancestor > a,
+.site-menu .menu-item-has-children,
+.site-menu .page_item_has_children {
   min-width: 218px;
 }
-.site-navigation .menu-item-has-children > a,
-.site-navigation .page_item_has_children > a {
+.site-menu .menu-item-has-children > a,
+.site-menu .page_item_has_children > a {
   padding-right: 2.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.site-navigation .menu-item-has-children > a::after,
-.site-navigation .page_item_has_children > a::after {
+.site-menu .menu-item-has-children > a::after,
+.site-menu .page_item_has_children > a::after {
   content: "+";
   margin-left: auto;
 }
-.site-navigation .is-open > a:after {
+.site-menu .is-open > a:after {
   content: '–';
 }
 .menu-toggle {

@@ -1,4 +1,4 @@
-<button id="site-navigation-toggle" class="menu-toggle"><?php esc_html_e(
+<button id="site-menu-toggle" class="menu-toggle"><?php esc_html_e(
 		'Primary Menu',
 		'unstyled'
 	); ?></button>
