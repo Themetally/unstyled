@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying results in search pages
+ * Template part for displaying results in a loop
  *
  * @link    https://codex.wordpress.org/Template_Hierarchy
  *
