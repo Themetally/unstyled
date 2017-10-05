@@ -19,7 +19,7 @@ function unstyled_jetpack_setup() {
 	add_theme_support(
 		'infinite-scroll',
 		array(
-			'container' => 'main',
+			'container' => 'primary',
 			'render'    => 'unstyled_infinite_scroll_render',
 			'footer'    => 'page',
 		)
