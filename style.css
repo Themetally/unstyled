@@ -1,6 +1,6 @@
 /*!
 Theme Name: Unstyled
-Theme URI: https://github.com/justnorris/unstyled
+Theme URI: https://github.com/themetally/unstyled
 Author: justnorris
 Author URI: https://justnorris.com
 Description: Unstyled is a hyper-opinionated WordPress theme using CSS Grid and Flexbox for layouts.
@@ -24,8 +24,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 =============================================================================
 	
 	If you're looking for styles, you can find them at:
-		* /build/unstyled.css		  	( compressed CSS )
-		* /assets/style/unstyled.styl 	( stylus source, can be found on github )
+		* /build/theme-style.css		  	( compressed CSS )
+		* /assets/style/theme-style.styl 	( stylus source, can be found on github )
 		
 =============================================================================
 */
