@@ -6,3 +6,13 @@ author: justnorris
 
 # Tell BrowserSync where you're site is at:
 development_url: http://theme.wp
+
+# Build Process
+exclude_files:
+  - theme.yml
+  - gulpfile.babel.js
+  - assets/gulp
+  - assets/style
+  - assets/gulp/**
+  - assets/style/**
+  - README.md

@@ -28,8 +28,16 @@ export default ( theme ) => {
                 lastTranslator: `${theme.author} <${theme.email}>`,
                 team          : `${theme.author} <${theme.email}>`,
             }
-        }
+        },
+
+        // Theme Packaging:
+        pack    : {
+            excludes     : theme.exclude_files,
+            zip_file_name: `${theme.slug}.zip`,
+            destination  : '../',
+        },
     }
+
 
     // Allow to override config from YAML:
     if ( theme.override ) {

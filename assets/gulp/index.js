@@ -10,6 +10,7 @@ gulp.task( 'sync', browser_sync )
 gulp.task( 'scripts', scripts )
 gulp.task( 'pot', pot )
 gulp.task( 'styl', stylus )
+gulp.task( 'pack', pack )
 
 /*
     Do everything
