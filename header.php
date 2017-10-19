@@ -14,11 +14,11 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'unstyled' ); ?></a>
 
 	<header id="header" class="site-header" role="banner">
-		
-		<?php get_template_part( 'partials/header/menu' ) ?>
+
+		<?php get_template_part( 'partials/header/branding' ) ?>
 
 		<nav id="site-menu" class="site-menu" role="navigation">
-			<?php get_template_part( 'partials/header/navigation' ) ?>
+			<?php get_template_part( 'partials/header/menu' ) ?>
 		</nav><!-- #site-menu -->
 
 	</header><!-- #header -->
