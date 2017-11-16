@@ -1,0 +1,78 @@
+// ------------------------------------------------
+// Calculate size based on modular scale
+// ------------------------------------------------
+ms(step = 0, $unit = 'rem')
+	if step == 0
+		return 0
+	else
+		if step > 0
+			step = step - 1
+
+		result = $base_size * ($scale ** step )
+
+	return unit( round(result, 3), $unit )
+
+
+
+// ------------------------------------------------
+// Convert raw numbers into modular scale units
+// ------------------------------------------------
+ms_convert(num)
+	// Start with exceptions.
+	// Ignore auto and inherit values
+	if num == 'auto' || num == 'inherit'
+		return num
+
+	//
+	// Only Apply Modular Scale on `em` and `rem` values
+	//
+
+	// Get the value unit
+	$unit = unit(num)
+
+	// If unit not set, convert to `rem`
+	if !$unit
+		$unit = 'rem'
+
+	if $unit == 'rem' || $unit == 'em'
+		return ms(num, $unit)
+
+	// If nothing worked, return the value as is
+	return num
+
+
+
+
+// `wadding` is a padding alternative
+wadding(args...)
+	for arg, key in args
+		args[key] = ms_convert(arg)
+
+	padding: args
+
+wadding-top(val)
+	padding-top: ms_convert(val)
+wadding-right(val)
+	padding-right: ms_convert(val)
+wadding-bottom(val)
+	padding-bottom: ms_convert(val)
+wadding-left(val)
+	padding-left: ms_convert(val)
+
+
+
+// `push` is an unitless `margin` alternative
+push(args...)
+	for arg, key in args
+		args[key] = ms_convert(arg)
+
+	margin: args
+
+push-top(val)
+	margin-top: ms_convert(val)
+push-right(val)
+	margin-right: ms_convert(val)
+push-bottom(val)
+	margin-bottom: ms_convert(val)
+push-left(val)
+	margin-left: ms_convert(val)
