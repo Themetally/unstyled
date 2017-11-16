@@ -1,0 +1,17 @@
+calculate(v1, v2, sign)
+	"calc(%s %s %s)" % (v1 unquote(sign) v2)
+
+calc_add(v1, v2)
+	calculate(v1, v2, "+")
+
+calc_sub(v1, v2)
+	calculate(v1, v2, "-")
+
+calc_full(amount, sign = "-")
+	width: 100%
+	width: calculate(100%, amount, sign)
+
+
+calc_overflow(size)
+	width: calc_add(100%, size * 2)
+	margin-left: size * -1
