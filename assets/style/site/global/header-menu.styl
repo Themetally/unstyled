@@ -1,84 +1,34 @@
 .site-menu
-	display: block
-	clear: both
-
-	max-width: 400px
-	margin-left: auto
-	margin-right: auto
-	text-align: center
-
-	position: relative
-
 	.is-open > ul
 		display: block
-
 	ul
 		text-align: left
 		list-style: none
 		margin: 0
-		wadding-top: 1
-		padding-left: 0
 
+	ul ul
 		display: none
 
-		li
-			position: relative
-			margin: 0 1px 0px 0
+	a
+		display: block
+		display: flex
+		justify-content: space-between
 
-			&:hover > ul,
-			&:focus > ul
-				left: auto
+	.menu-item-has-children > a::after
+		content: "▾"
+		margin-left: 1em
 
-	.children
-		layer(menu)
-		top: ms(1)
-		margin-top: 1px
-		margin-right: -1px
-		padding-top: 0
+	.is-open > a::after
+		content: '▿'
 
-		li
-			&:hover > ul,
-			&.focus > ul
-				left: 100%
-			a
-				wadding-left: -1
-				&:before
-					content: "- "
-			li
-				a
-					wadding-left: 1
-
+.site-menu__message
+	wadding: 1
+	font-size: .75rem
+	text-align: right
+	h1
+		font-size: 1rem
+		font-weight: 700
+		letter-spacing: .1em
 	a
 		display: inline-block
-		width: 100%
-		padding: .25rem 0
-		text-decoration: none
-
-
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a,
-	.current-menu-ancestor > a
-	.menu-item-has-children,
-	.page_item_has_children
-		min-width: 218px
-
-	.menu-item-has-children > a,
-	.page_item_has_children > a
-		wadding-left: 2
-
-		display: flex
-
-		&::after
-			content: "+"
-			margin-left: auto
-
-	.is-open > a:after
-		content: '–'
-		
-
-.menu-toggle
-	margin-left: auto
-	margin-right: auto
-	text-transform: uppercase
-	border: none
+		color: $accen

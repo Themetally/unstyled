@@ -23,7 +23,7 @@ const toggle = ( $el ) => {
 /*
     Toggle the responsive menu popup
  */
-$document.on( 'click', '#site-menu-toggle', function ( e ) {
+$document.on( 'click', '.site-menu-toggle', function ( e ) {
 
     let $el       = $( this )
     let $dropdown = $( '#primary-menu' )
