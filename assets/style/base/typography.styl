@@ -3,42 +3,34 @@
  *--------------------------------------------------------------*/
 html
 	font-family: $font
+	font-size: 100% // 16px
+	line-height: 1.7
 
 body
 	color: $text_color
 
 h1, h2, h3, h4, h5, h6
 	clear: both
-	font-weight: 700
-
-	+ ul, + ol
-		margin-top: 1gr
 
 h1
-	font-size: 5sx
-	line-height: auto
-	margin-bottom: 1gr
+	font-size: ms(2.5)
 
 h2
-	font-size: 4sx
-	line-height: auto
-	margin-bottom: 1gr
+	font-size: ms(2)
 
 h3
-	font-size: 3sx
-	line-height: auto
+	font-size: ms(1.5)
 
 h4
-	font-size: 2sx
-	line-height: auto
+	font-size: ms(1)
 
 h5
-	font-size: 1sx
-	line-height: auto
+	font-size: ms(-1)
 
 h6
-	font-size: 0sx
-
+	font-size: ms(-1)
+	text-transform: none
+	letter-spacing: .05em
 
 // Give the textarea and basic elements the body style
 button,

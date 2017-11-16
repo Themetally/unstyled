@@ -59,26 +59,26 @@ msgstr ""
 msgid "%1$s"
 msgstr ""
 
-#: inc/template-tags.php:90
+#: inc/template-tags.php:94
 msgid "Search Results for: %s"
 msgstr ""
 
-#: inc/template-tags.php:116
+#: inc/template-tags.php:120
 msgctxt "post date"
 msgid "Published %s"
 msgstr ""
 
-#: inc/template-tags.php:121
+#: inc/template-tags.php:125
 msgctxt "post author"
 msgid "Written by %s"
 msgstr ""
 
 #. translators: %s: post title
-#: inc/template-tags.php:135
+#: inc/template-tags.php:139
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: inc/template-tags.php:147, partials/content-page.php:36
+#: inc/template-tags.php:151, partials/content-page.php:36
 msgid "Edit %s"
 msgstr ""
 
@@ -98,11 +98,11 @@ msgstr ""
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: partials/content-page.php:23, partials/content.php:34
+#: partials/content-page.php:23, partials/content.php:40
 msgid "Pages:"
 msgstr ""
 
-#: partials/content.php:25
+#: partials/content.php:31
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
@@ -123,6 +123,6 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: partials/header/navigation.php:1
+#: partials/header/menu.php:1
 msgid "Primary Menu"
 msgstr ""

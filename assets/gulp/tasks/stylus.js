@@ -5,9 +5,6 @@ import sourcemaps from 'gulp-sourcemaps'
 import minify from 'gulp-clean-css'
 import handle_errors from '../util/handle_errors'
 
-import postcss from 'gulp-postcss'
-import postcss_rhythm from 'postcss-gridlover'
-
 // Minify options
 const cssmin_opts = {
     rebase             : false,
@@ -15,12 +12,6 @@ const cssmin_opts = {
     advanced           : false,
     aggressiveMerging  : false,
 }
-
-// PostCSS Plugins
-let postcss_plugins = [
-    postcss_rhythm(),
-]
-
 
 export default () => {
 
@@ -31,7 +22,6 @@ export default () => {
     // Build Stylus
     task = task.pipe( sourcemaps.init() )
                .pipe( stylus() )
-               .pipe( postcss( postcss_plugins ) )
                .pipe( autoprefixer() )
 
 

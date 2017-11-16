@@ -2,8 +2,8 @@
 	@extends .site-content
 
 .widget
-	margin-bottom: 1gr
-	padding-bottom: 1gr
+	push-bottom: 1
+	wadding-bottom: 1
 
 	ul, ol
 		margin-bottom: 0
@@ -12,7 +12,7 @@
 			display: block
 
 			ul, ol
-				margin-left: .5gr
+				push-left: -1
 	a
 		font-weight: 600
 
@@ -22,11 +22,6 @@
 		width: 100%
 		border: 1px solid $light
 		outline: 0
-
-.widget-title
-	font-size: 2sx
-	line-height: auto
-
 
 .widget_categories .children
 	padding-top: 0
@@ -38,7 +33,7 @@
 /* Pages and Menu widgets */
 .widget_pages .children,
 .widget_nav_menu .sub-menu
-	margin-bottom: 1gr
+	push-bottom: 1
 
 .widget_pages,
 .widget_nav_menu
@@ -60,17 +55,15 @@
 /* RSS widget */
 .widget_rss
 	li
-		margin-bottom: 2gr
+		push-bottom: 2
 
 	.rss-date, .widget_rss cite
 		font-style: italic
 
 	.rssSummary
-		margin-bottom: 1gr
+		push-bottom: 1
 
 	.rsswidget
-		font-size: 1sx
-		line-height: auto
 		display: block
 
 /* Search widget */
@@ -81,8 +74,7 @@
 /* Calendar widget */
 .widget_calendar
 	caption
-		padding: 1gr 0
-		font-size: 1gr
+		wadding: 1 0
 		text-align: left
 	thead
 		background: transparent

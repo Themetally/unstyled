@@ -19,7 +19,6 @@
     "gulp-wp-pot": "^2.0.6",
     "gulp-zip": "^4.0.0",
     "node-notifier": "^5.1.2",
-    "postcss-gridlover": "^0.2.1",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
