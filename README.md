@@ -12,9 +12,9 @@ Don't worry - it's easy. There are just two commands you need to know out of the
 * **Gulp.js** - All the theme tasks, such as compilation and .pot file generation is handled by Gulp.js
 * **ES6** JavaScript ready, with `import` support (powered by Browserify and Babelify)
 * **Stylus** for styles - the most flexible way of writing CSS, with Globbing support and a lot more.
+* **Stylus Mixins** - a few mixins I use in almost every project: Modular Scale, CSS Grid Helpers, Stylus `calc()` workarounds, Layer Manager
 * **BrowserSync** - Automatic reloads when files change, CSS injection when only CSS files have changed
 * **Autoprefixer** - Don't write CSS Prefixes. Let Autoprefixer handle them.
-* **Vertical Rhythm** - Easy vertical rhythm units added by using [PostCSS Gridlover](https://github.com/sakamies/postcss-gridlover) to help you keep your sanity while maintaining a sensible vertical rhythm.
 * **Sourcemaps** - can't live without them
 * **Default styles** - Theme comes with some basic styles for things like the menu, forms, tables, WordPress galleries. Read more at [Sensible Defaults](#sensible-defaults)
 * **Minification for Production** - CSS and JavaScript files are automatically minified when building for production
