@@ -124,5 +124,9 @@ msgid "Add widgets here."
 msgstr ""
 
 #: partials/header/menu.php:1
-msgid "Primary Menu"
+msgid "Menu "
+msgstr ""
+
+#: partials/header/menu.php:6
+msgid "Close Menu"
 msgstr ""
