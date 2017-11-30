@@ -793,7 +793,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.page-header {
+.archive-header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: start;
@@ -801,7 +801,7 @@ body {
           align-items: flex-start;
   margin-bottom: 1.663rem;
 }
-.page-title {
+.archive-title {
   width: 100%;
   margin: 0;
   line-height: auto;

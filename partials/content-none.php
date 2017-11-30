@@ -11,9 +11,9 @@
 
 <section class="no-results not-found">
 
-	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'unstyled' ); ?></h1>
-	</header><!-- .page-header -->
+	<header class="archive-header">
+		<h1 class="archive-title"><?php esc_html_e( 'Nothing Found', 'unstyled' ); ?></h1>
+	</header><!-- .archive-header -->
 
 	<div class="page-content">
 		<?php
