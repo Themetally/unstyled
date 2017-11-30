@@ -9,7 +9,8 @@
 
 get_header(); ?>
 
-<?php get_template_part( 'partials/content', 'none' ); ?>
-
+<main id="primary" class="site-content" role="main">
+	<?php get_template_part( 'partials/content', 'none' ); ?>
+</main>
 
 <?php get_footer() ?>
