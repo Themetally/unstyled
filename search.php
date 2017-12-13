@@ -1,15 +1,5 @@
 <?php get_header(); ?>
 
-<?php
-if ( ! have_posts() ) :
-
-	get_template_part( 'partials/content', 'none' );
-
-	return;
-
-endif;
-?>
-
 	<main id="primary" class="site-content" role="main">
 
 		<?php
@@ -28,6 +18,7 @@ endif;
 			endwhile;
 
 			get_template_part( 'partials/pagination' );
+
 
 		else :
 
