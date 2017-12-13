@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "babelify": "^7.3.0",
     "browser-sync": "^2.18.13",
-    "browserify": "^14.4.0",
+    "browserify": "^14.5.0",
     "defaults-deep": "^0.2.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
@@ -11,6 +11,7 @@
     "gulp-clean-css": "^3.9.0",
     "gulp-error-handle": "^1.0.0",
     "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^0.6.1",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-strip-debug": "^1.1.0",
     "gulp-stylus": "^2.6.0",
@@ -19,6 +20,7 @@
     "gulp-wp-pot": "^2.0.6",
     "gulp-zip": "^4.0.0",
     "node-notifier": "^5.1.2",
+    "run-sequence": "^2.2.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
