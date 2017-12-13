@@ -15,9 +15,9 @@ endif;
 		<?php
 		if ( have_posts() ) : ?>
 
-			<header class="archive-header">
-				<h1 class="archive-title"><?php unstyled_search_results_title(); ?></h1>
-			</header><!-- .archive-header -->
+			<header class="search-header">
+				<h2 class="search-title"><?php unstyled_search_results_title(); ?></h2>
+			</header><!-- .search-header -->
 
 			<?php
 			/* Start the Loop */

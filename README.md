@@ -9,9 +9,7 @@ Think of `Unstyled` as [_s](https://github.com/Automattic/_s) with batteries inc
 (coming soon)
 Some things found over-time to be missing. Should fix theese quite soon:
 
-* Basic Search Result style
 * 404 Design
-* Updated Gulp Workflow
 * Ask @richtabor for help to theme-check this when it's 100% done
 
 
