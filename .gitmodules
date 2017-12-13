@@ -1,0 +1,3 @@
+[submodule "assets/gulp"]
+	path = assets/gulp
+	url = https://justnorris@github.com/justnorris/wp-theme-gulper
