@@ -5,6 +5,16 @@ Think of `Unstyled` as [_s](https://github.com/Automattic/_s) with batteries inc
 
 ![image](https://user-images.githubusercontent.com/988095/31171735-74400622-a909-11e7-836c-fd81defe381d.jpg)
 
+## Todo
+(coming soon)
+Some things found over-time to be missing. Should fix theese quite soon:
+
+* Basic Search Result style
+* 404 Design
+* Updated Gulp Workflow
+* Ask @richtabor for help to theme-check this when it's 100% done
+
+
 ## Batteries Included
 This is an opinionated starting point powered by **Gulp.js**, that means that you will have touch the terminal a little bit.
 Don't worry - it's easy. There are just two commands you need to know out of the box and you'll like them.
