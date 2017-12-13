@@ -11,6 +11,7 @@
     "gulp-clean-css": "^3.9.0",
     "gulp-error-handle": "^1.0.0",
     "gulp-postcss": "^7.0.0",
+    "gulp-prompt": "^1.0.0",
     "gulp-replace": "^0.6.1",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-strip-debug": "^1.1.0",
