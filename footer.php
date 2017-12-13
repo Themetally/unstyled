@@ -12,7 +12,7 @@
 		<span class="sitemeta">
 				<?php printf(
 					esc_html__( 'Theme: %1$s.', 'unstyled' ),
-					'<a href="https://github.com/justnorris/unstyled">Unstyled</a>'
+					'<a href="https://github.com/Themetally/unstyled">Unstyled</a>'
 				); ?>
 		</span>
 	</div><!-- .site-info -->
