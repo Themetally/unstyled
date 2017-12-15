@@ -8,7 +8,7 @@ Think of `Unstyled` as [_s](https://github.com/Automattic/_s) with batteries inc
 ## Todo
 (coming soon)
 Some things found over-time to be missing. Should fix theese quite soon:
-
+* Functions should do one thing only (looking at you `unstyled_posted_on`)
 * 404 Design
 * Ask @richtabor for help to theme-check this when it's 100% done
 
